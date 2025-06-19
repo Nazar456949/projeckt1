@@ -1,0 +1,81 @@
+@media screen and (max-width: 743px) {
+    #burger {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        width: 60px;
+        height: 60px;
+        padding: 30px;
+        cursor: pointer;
+        z-index: 1001;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+
+    .burger-icon img {
+        width: 60px;
+        display: block;
+    }
+
+    .burger-icon .burger-claus {
+        display: none;
+    }
+
+    #burger:checked + .burger-icon .burger-open {
+        display: none;
+    }
+
+    #burger:checked + .burger-icon .burger-claus{
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #burger:checked ~ nav {
+        display: block;
+    }
+
+    #burger:checked ~ nav .header__ul {
+        flex-direction: column;
+    }
+
+    .main__paragraf .main__paragraf--1 {
+        font-size: 18px;
+    }
+
+    .main__section {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+.main__paragraf{
+    font-size: 28px;
+    font-weight: 400;
+}
+.work2, .work3 {
+    width: 500px;
+    margin-top: 2rem;
+}
+
+.section--work {
+    flex-direction: column;
+}
+
+.section__paragraf {
+    font-size: 12px;
+}
+
+.section__image {
+    width: 100px;
+    height: 200px;
+}
+
+.footer__a {
+    font-size: 24px;
+}
+}

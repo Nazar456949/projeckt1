@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <input type="checkbox" id="burger" />
+        <label for="burger" class="burger-icon">
+          <img src="./img/menu.jfif" alt="menu" class="burger-open" />
+          <img src="./img/claus.jfif" alt="burger-claus" class="burger-claus" />
+        </label>
+        <nav class="nav">
+          <ul class="header__ul">
+            <li class="header__item">
+              <a href="#about" class="header__a">Про мене</a>
+            </li>
+            <li class="header__item">
+              <a href="#services" class="header__a">Мої скіли</a>
+            </li>
+            <li class="header__item">
+              <a href="#anketa" class="header__a">Портфоліо</a>
+            </li>
+            <li class="header__item">
+              <a href="#footer" class="header__a">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+   <main class="main">
+        <section class="main__section">
+          <div class="box">
+            <p class="main__paragraf">Hi, I am</p>
+            <p class="main__paragraf">Kolevatov Nazar</p>
+            <p class="main__paragraf--1">Front-end Developer</p>
+          </div>
+          <div class="box">
+            <img class="nazar" src="img/nazar.jpg" alt="Kolevatov Nazar" />
+          </div>
+        </section>
+        <section class="main__section--you">
+          <div class="section__box">
+            <img class="section__image" src="img/you.png" />
+          </div>
+          <div id="about" class="section__box">
+            <h1>Про мене</h1>
+            <p class="section__paragraf">
+              Добрий день, мене звати Назар. Я вже добре володію html та css.
+              Зараз активно розвиваюся як фронтенд розробник. Мені подобається
+              створювати зручні та красиві інтерфейси, які добре працюють на
+              різних пристроях. У майбутньому хочу глибше зануритися у
+              JavaScript і сучасні інтерфейси. Дякую за увагу
+            </p>
+          </div>
+        </section>
+        <section id="work" class="section__work">
+          <h2 class="section__title">Мої Проєкти</h2>
+          <div class="section--work">
+            <img class="work2" src="img/film.png" />
+            <img class="work3" src="img/hkm.jpg" />
+          </div>
+        </section>
+         <section class="section--projects">
+          <div class="box__projects">
+            <p class="projects">рекомендований проект</p>
+            <p class="projects__title">Приклад проєкту</p>
+            <p class="text__projects">
+            <a href="https://nazar456949.github.io/new3/" class="sait"> Нажимни сюда щоб переглянути сайт </a>
+            </p>
+          </div>
+          <div class="box__projects">
+            <img class="projects--work" src="img/film.png" />
+          </div>
+        </section>
+        <section class="section--projects">
+          <div class="box__projects">
+            <img class="projects--work" src="img/hkm.jpg" />
+          </div>
+          <div class="box__projects">
+            <p class="projects">рекомендований проект</p>
+            <p class="projects__title">Приклад проєкту</p>
+            <p class="text__projects">
+             <a href=" https://nazar456949.github.io/nazarhkm/" class="sait"> Нажимни сюда щоб переглянути сайт </a>
+            </p>
+          </div>
+        </section>
+        <section id="services" class="section--skills">
+          <h3 class="title__skills">Мої навички</h3>
+          <div class="skills">
+            <span class="skills__item">HTML</span>
+            <span class="skills__item">90%</span>
+            <div class="skills__bar">
+              <div class="skills__progress" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <span class="skills__item">CSS</span>
+            <span class="skills__item">90%</span>
+            <div class="skills__bar">
+              <div class="skills__progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skills">
+            <span class="skills__item">JS</span>
+            <span class="skills__item">0%</span>
+            <div class="skills__bar">
+              <div class="skills__progress" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <span class="skills__item">Figma</span>
+            <span class="skills__item">25%</span>
+            <div class="skills__bar">
+              <div class="skills__progress" style="width: 25%"></div>
+            </div>
+          </div>
+        </section>
+        <section class="section--skill">
+          <h4 class="title__skill">Мої Скіли</h4>
+          <ul class="skill__ul">
+            <li class="skill__item"><a href="#" class="skil">HTML</a></li>
+            <li class="skill__item"><a href="#" class="skil">CSS</a></li>
+            <li class="skill__item">
+              <a href="#" class="skil">JavaScript (вивчаю)</a>
+            </li>
+            <li class="skill__item"><a href="#" class="skil">Figma</a></li>
+          </ul>
+          <div id="anketa" class="box--anketa">
+            <h5 class="title__anketa">Send me a message</h5>
+            <input class="anketa" type="text" placeholder="Name" />
+            <input class="anketa" type="email" placeholder="Email address" />
+            <input class="anketa" type="text" placeholder="Subject" />
+            <textarea class="anketa--1" placeholder="Your Message"></textarea>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"> 
+        <ul class="footer__ul">
+          <li class="footer__item">
+            <a href="#header" class="footer__a">Головна</a>
+          </li>
+          <li class="footer__item">
+            <a href="#work" class="footer__a">Мої роботи</a>
+          </li>
+          <li class="footer__item">
+            <a href="#contact" class="footer__a">Контакти</a>
+          </li>
+        </ul>
+        <div id="footer" class="footer__box">
+          <img class="footer_image" src="img/Instagram.png" />
+          <img class="footer_image" src="img/YouTube.png" />
+          <img class="footer_image" src="img/Facebook.png" />
+          <img class="footer_image" src="img/Twitter.png" />
+          <img class="footer_image" src="img/Linkedin.png" />
+        </div>
+      </footer>
+      <span class="name">© 2025 Nazar Kolevatov</span> 
+    </div>
+  </body>
+</html>
